@@ -35,17 +35,18 @@
         android:layout_below="@+id/percentageTextView"
         android:layout_centerHorizontal="true" />
 
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/completionAmountView"
-        android:layout_above="@id/createExpenseButton"
-        android:id="@+id/recyclerView"/>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Create New Expense"
         android:id="@+id/createExpenseButton"/>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/completionAmountView"-->
+        <!--android:layout_above="@+id/createExpenseButton"-->
+        <!--android:id="@+id/recyclerView"/>-->
+
 </RelativeLayout>
