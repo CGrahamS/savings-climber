@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913224214001",
+    "firebase_url": "https://savings-climber.firebaseio.com",
+    "project_id": "savings-climber",
+    "storage_bucket": "savings-climber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913224214001:android:a54832941c0abba9",
+        "android_client_info": {
+          "package_name": "com.epicodus.savingsclimber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913224214001-uh748h1rg0hgndda0jkmvo40643f79ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZqlGyRDjwTlD3KbAUOIgRWNhT_46ibd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913224214001-uh748h1rg0hgndda0jkmvo40643f79ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

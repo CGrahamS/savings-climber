@@ -10,4 +10,47 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.epicodus.savingsclimber.ui.CreateExpenseActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Create a new recurring expense!"
+        android:id="@+id/expenseTitleTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expenseNameEditText"
+        android:layout_below="@+id/expenseTitleTextView"
+        android:layout_alignLeft="@+id/expenseTitleTextView"
+        android:layout_alignStart="@+id/expenseTitleTextView"
+        android:layout_alignRight="@+id/expenseTitleTextView"
+        android:layout_alignEnd="@+id/expenseTitleTextView"
+        android:hint="Expense name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expenseCostEditText"
+        android:layout_below="@+id/expenseNameEditText"
+
+        android:hint="Expense cost"
+        android:layout_alignRight="@+id/expenseNameEditText"
+        android:layout_alignEnd="@+id/expenseNameEditText"
+        android:layout_alignLeft="@+id/expenseNameEditText"
+        android:layout_alignStart="@+id/expenseNameEditText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Expense"
+        android:id="@+id/createExpenseButton"
+        android:layout_below="@+id/expenseCostEditText"
+        android:layout_alignLeft="@+id/expenseCostEditText"
+        android:layout_alignStart="@+id/expenseCostEditText"
+        android:layout_alignRight="@+id/expenseCostEditText"
+        android:layout_alignEnd="@+id/expenseCostEditText" />
 </RelativeLayout>
